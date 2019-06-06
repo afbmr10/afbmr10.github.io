@@ -221,7 +221,7 @@
 			],
 			"otherContent": [
             {
-              "@id": "http://localhost:8887/annotation-list.json",
+              "@id": "https://github.com/afbmr10/afbmr10.github.io",
               "@type": "sc:AnnotationList"
             }
           ]
