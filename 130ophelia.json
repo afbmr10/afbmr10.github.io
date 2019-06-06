@@ -1,0 +1,225 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://03af8b15-e808-4b87-89b6-f2b5aca14fc9",
+	"@type": "sc:Manifest",
+	"label": "130 Years of Ophelia",
+	"metadata": [],
+	"description": [
+		{
+			"@value": "A comparison of costume designs for the character of \"Ophelia\" from Shakespeare's Hamlet. Examples from the 1878 production at the Lyceum and the 2008 production at RSC.",
+			"@language": "en"
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by/3.0/",
+	"attribution": "1878 Lyceum Ellen Terry Images: Folger bibliographic ID: 255589 \n2008 RSC Images: Photo by Ellie Kurttz (c) RSC\n",
+	"sequences": [
+		{
+			"@id": "http://37d85220-b726-4cb5-b5a0-c4c8fa948e4d",
+			"@type": "sc:Sequence",
+			"label": "Normal Sequence",
+			"canvases": [
+				{
+					"@id": "http://dd73d4a0-1edf-4073-b054-31f031c5d730",
+					"@type": "sc:Canvas",
+					"label": "1878 Lyceum Ellen Terry as Ophelia ",
+					"height": 6616,
+					"width": 4382,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://2b464bd4-bed7-4765-a92f-3979832c1729",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/81c6f4bd084ca2d7c1cbfb29bd394b44a31be80176d5bc3bcb231eb8e1a75c57/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/81c6f4bd084ca2d7c1cbfb29bd394b44a31be80176d5bc3bcb231eb8e1a75c57",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 6616,
+								"width": 4382
+							},
+							"on": "http://dd73d4a0-1edf-4073-b054-31f031c5d730"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://ad0e6a71-6d69-428f-a1db-353ec533f2b7",
+					"@type": "sc:Canvas",
+					"label": "2008 RSC Mariah Gale as Ophelia",
+					"height": 600,
+					"width": 400,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://c996bf4c-969c-4862-badd-a1053ff56d37",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/bf984dca6b8541cfd33325cbe00851439d85d8f996eaada993281494b02c21d4/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/bf984dca6b8541cfd33325cbe00851439d85d8f996eaada993281494b02c21d4",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 600,
+								"width": 400
+							},
+							"on": "http://ad0e6a71-6d69-428f-a1db-353ec533f2b7"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://35f7732c-4a07-4d19-b8dc-6e468cb8d32b",
+					"@type": "sc:Canvas",
+					"label": "1878 Lyceum Ellen Terry as Mad Ophelia ",
+					"height": 6624,
+					"width": 4434,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://a282ef70-a709-4134-97e9-db04ae14d56c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/aac138b8c4f5fa87f2baa9146cd1bf2439bb967badad892547064c2c6b35b056/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/aac138b8c4f5fa87f2baa9146cd1bf2439bb967badad892547064c2c6b35b056",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 6624,
+								"width": 4434
+							},
+							"on": "http://35f7732c-4a07-4d19-b8dc-6e468cb8d32b"
+						}
+					],
+					"related": ""
+				},
+				{
+					"@id": "http://f9f3c3a5-edce-4a46-9237-715b8bd8ed94",
+					"@type": "sc:Canvas",
+					"label": "2008 RSC Mariah Gale as Mad Ophelia",
+					"height": 600,
+					"width": 400,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5b5e3c55-ece3-472a-9330-a8a5fab92b99",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/8aaa741980a4285f2779148d9eef6d5d505e8f910a2c8ad027f329e2024fbf28/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/8aaa741980a4285f2779148d9eef6d5d505e8f910a2c8ad027f329e2024fbf28",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 600,
+								"width": 400
+							},
+							"on": "http://f9f3c3a5-edce-4a46-9237-715b8bd8ed94"
+						}
+					],
+					"related": ""
+				}
+			]
+		}
+	],
+	"structures": []
+}
