@@ -1,0 +1,43 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"https://afbmr10.github.io/annotations4.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1559926734745",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2019-06-07T16:58:54",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "130 years later, a white garment and a willow branch are still the visuals associated with Ophelia",
+    "format" : "text/html",
+    "chars" : "<p>130 years later, a white garment and a willow branch are still the visuals associated with Ophelia</p>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://03af8b15-e808-4b87-89b6-f2b5aca14fc9",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b4",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=139,76,101,121"
+      },
+      "item" : {
+        "@id" : "_:b3",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M138.93264,75.72021h50.74093v0h50.74093v60.58549v60.58549h-50.74093h-50.74093v-60.58549z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_075aa936-3121-4520-9d24-48ea8aea2867\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://f9f3c3a5-edce-4a46-9237-715b8bd8ed94"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}
