@@ -1,0 +1,44 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"https://afbmr10.github.io/annotations1.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1559925685412",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2019-06-07T16:41:25",
+  "dcterms:modified" : "2019-06-07T16:48:32",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "While this dress is elegant and establishes its wearer as a woman of nobility, there is not explicit aesthetic indictation that she is Ophelia.",
+    "format" : "text/html",
+    "chars" : "<p>While this dress is elegant and establishes its wearer as a woman of nobility, there is not explicit aesthetic indictation that she is Ophelia.</p>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://03af8b15-e808-4b87-89b6-f2b5aca14fc9",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=1322,1128,759,697"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1322.48302,1128.09746h379.50604v0h379.50604v348.55901v348.55901h-379.50604h-379.50604v-348.55901z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_e44fb52e-233e-416a-a75f-61d00f26a156\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"63.4811\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://dd73d4a0-1edf-4073-b054-31f031c5d730"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}
