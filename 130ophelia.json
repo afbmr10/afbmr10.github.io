@@ -36,7 +36,7 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://free.iiifhosting.com/iiif/81c6f4bd084ca2d7c1cbfb29bd394b44a31be80176d5bc3bcb231eb8e1a75c57",
+									"@id": "https://free.iiifhosting.com/iiif/81c6f4bd084ca2d7c1cbfb29bd394b44a31be80176d5bc3bcb231eb8e1a75c57",
 									"profile": [
 										"http://iiif.io/api/image/2/level1.json",
 										{
@@ -93,7 +93,7 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://free.iiifhosting.com/iiif/bf984dca6b8541cfd33325cbe00851439d85d8f996eaada993281494b02c21d4",
+									"@id": "https://free.iiifhosting.com/iiif/bf984dca6b8541cfd33325cbe00851439d85d8f996eaada993281494b02c21d4",
 									"profile": [
 										"http://iiif.io/api/image/2/level1.json",
 										{
@@ -150,7 +150,7 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://free.iiifhosting.com/iiif/aac138b8c4f5fa87f2baa9146cd1bf2439bb967badad892547064c2c6b35b056",
+									"@id": "https://free.iiifhosting.com/iiif/aac138b8c4f5fa87f2baa9146cd1bf2439bb967badad892547064c2c6b35b056",
 									"profile": [
 										"http://iiif.io/api/image/2/level1.json",
 										{
@@ -207,7 +207,7 @@
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://free.iiifhosting.com/iiif/8aaa741980a4285f2779148d9eef6d5d505e8f910a2c8ad027f329e2024fbf28",
+									"@id": "https://free.iiifhosting.com/iiif/8aaa741980a4285f2779148d9eef6d5d505e8f910a2c8ad027f329e2024fbf28",
 									"profile": [
 										"http://iiif.io/api/image/2/level1.json",
 										{
