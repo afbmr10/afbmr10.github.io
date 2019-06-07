@@ -1,6 +1,6 @@
 {
 	"@context": "http://iiif.io/api/presentation/2/context.json",
-	"@id": "http://03af8b15-e808-4b87-89b6-f2b5aca14fc9",
+	"@id": "https://afbmr10.github.io/130ophelia.json",
 	"@type": "sc:Manifest",
 	"label": "130 Years of Ophelia",
 	"metadata": [],
@@ -66,6 +66,13 @@
 							"on": "http://dd73d4a0-1edf-4073-b054-31f031c5d730"
 						}
 					],
+					"otherContent": [
+					    {
+					        "@id": "https://afbmr10.github.io/annotations1.json",
+					        "@type": "sc:AnnotationList",
+					        "label": "My fantastic annotations"
+					    }
+					],
 					"related": ""
 				},
 				{
@@ -116,6 +123,13 @@
 							"on": "http://ad0e6a71-6d69-428f-a1db-353ec533f2b7"
 						}
 					],
+					"otherContent": [
+							{
+									"@id": "https://afbmr10.github.io/annotations2.json",
+									"@type": "sc:AnnotationList",
+									"label": "My fantastic annotations"
+							}
+						],
 					"related": ""
 				},
 				{
@@ -166,6 +180,13 @@
 							"on": "http://35f7732c-4a07-4d19-b8dc-6e468cb8d32b"
 						}
 					],
+					"otherContent": [
+							{
+									"@id": "https://afbmr10.github.io/annotations3.json",
+									"@type": "sc:AnnotationList",
+									"label": "My fantastic annotations"
+							}
+						],
 					"related": ""
 				},
 				{
@@ -216,16 +237,17 @@
 							"on": "http://f9f3c3a5-edce-4a46-9237-715b8bd8ed94"
 						}
 					],
+					"otherContent": [
+							{
+									"@id": "https://afbmr10.github.io/annotations4.json",
+									"@type": "sc:AnnotationList",
+									"label": "My fantastic annotations"
+							}
+						],
 					"related": ""
 				}
-			],
-			"otherContent": [
-            {
-              "@id": "https://github.com/afbmr10/afbmr10.github.io",
-              "@type": "sc:AnnotationList"
-            }
-          ]
-		}
-	],
+		]
+	}
+],
 	"structures": []
 }
