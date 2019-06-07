@@ -1,0 +1,43 @@
+{
+       "@context":"http://iiif.io/api/presentation/2/context.json",
+       "@id":"https://afbmr10.github.io/annotations2.json",
+       "@type":"sc:AnnotationList",
+       "resources":
+[ {
+  "@id" : "http://35.177.224.176:8888/annotation/1559926410729",
+  "@type" : "oa:Annotation",
+  "dcterms:created" : "2019-06-07T16:53:30",
+  "resource" : [ {
+    "@id" : "_:b2",
+    "@type" : "dctypes:Text",
+    "http://dev.llgc.org.uk/sas/full_text" : "Similarly, this ensemble may establish the wearer as young and feminine, yet not specifically depicting her as Ophelia",
+    "format" : "text/html",
+    "chars" : "<p>Similarly, this ensemble may establish the wearer as young and feminine, yet not specifically depicting her as Ophelia</p>"
+  } ],
+  "on" : [ {
+    "@id" : "_:b0",
+    "@type" : "oa:SpecificResource",
+    "within" : {
+      "@id" : "http://03af8b15-e808-4b87-89b6-f2b5aca14fc9",
+      "@type" : "sc:Manifest"
+    },
+    "selector" : {
+      "@id" : "_:b1",
+      "@type" : "oa:Choice",
+      "default" : {
+        "@id" : "_:b3",
+        "@type" : "oa:FragmentSelector",
+        "value" : "xywh=110,74,87,70"
+      },
+      "item" : {
+        "@id" : "_:b4",
+        "@type" : "oa:SvgSelector",
+        "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M109.9171,73.64767h43.48705v0h43.48705v35.19689v35.19689h-43.48705h-43.48705v-35.19689z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_4433d1c3-ad0c-48f9-a044-27c500cd3eaf\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+      }
+    },
+    "full" : "http://ad0e6a71-6d69-428f-a1db-353ec533f2b7"
+  } ],
+  "motivation" : [ "oa:commenting" ],
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+} ]
+}
